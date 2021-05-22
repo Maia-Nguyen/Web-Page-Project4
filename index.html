@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maia Nguyen CPSC-311 Project 4</title>
+</head>
+<body>
+    <script>
+		function changeImg(imgNumber)	{
+			var myImages = ["images/background.gif", "images/background2.gif", "images/background3.gif", "images/background4.gif", "images/background5.gif", "images/background6.gif",
+                             "images/background7.gif", "images/background8.gif"]; 
+			var imgShown = document.body.style.backgroundImage;
+            var newImgNumber = Math.floor(Math.random()*myImages.length);
+			document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
+		}
+		window.onload=changeImg;
+	</script>
+    <div class="content">
+        <h1>Maia Nguyen</h1>
+        <h2 class="bio">Programmer | Artist | Baker | Cat Mom</h2>
+        <h2>Third Year Computer Science Student at California State University, Fullerton</h2>
+        <h2>Owner of BeemBeely, a Sticker and Stationary Etsy Shop</h2>
+        <h3>C++ Python Java JavaScript HTML CSS</h3>
+        <h3>maianguyen@email.com</h3>
+        <h3 class="bottom">(123) 456-7890</h3>
+        <div class="links">
+            <a class="network" href="https://github.com/Maia-Nguyen" target="_blank">My Projects</a>
+            <a class="network" href="https://etsy.com/shop/beembeely" target="_blank">BeemBeely</a>
+        </div>
+    </div>
+</body>
+</html>

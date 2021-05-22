@@ -1,0 +1,71 @@
+body {
+    font-family: "Cairo", sans-serif;
+    background: url("background.gif") fixed;
+    background-position-y: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.932);
+    height: auto;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    margin-top: 12.5%;
+    border-radius: 8px;
+}
+
+.bottom {
+    padding-bottom: 10px;
+}
+
+.bio {
+    color:#ff9284;
+}
+
+h1 {
+    color: #68c2d8;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+h2 {
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+    margin: 10px;
+}
+
+h3 {
+    color: rgb(138, 137, 137);
+    font-size: 20px;
+    margin: 10px; 
+}
+
+.network {
+    color: white;
+    background-color: #ff9284af;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.network:hover {
+    border: 2px solid #ff9284;
+    color: white;
+    background-color: #ff9284;
+    transition: ease-in-out .75s;
+}
+
+a:link {
+    text-decoration: none;
+}
